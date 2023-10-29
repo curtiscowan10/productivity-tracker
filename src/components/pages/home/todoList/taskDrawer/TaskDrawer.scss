@@ -1,0 +1,16 @@
+.taskDrawer {
+  padding: 24px;
+  .MuiFormControl-root {
+    margin-bottom: 16px;
+  }
+  &__title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+  }
+  &__submit {
+    margin-top: 24px;
+  }
+}

@@ -1,0 +1,18 @@
+.page {
+  &__container {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    max-height: 100vh;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 16px;
+    margin-bottom: 64px;
+    max-height: calc(100vh - 64px);
+  }
+}
